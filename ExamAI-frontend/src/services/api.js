@@ -1,7 +1,9 @@
 import axios from "axios";
 
+const BASE = import.meta.env.VITE_API_URL || "";
+
 const API = axios.create({
-    baseURL: "/api",
+    baseURL: `${BASE}/api`,
 });
 
 API.interceptors.request.use((config) => {
@@ -41,21 +43,21 @@ export const uploadAPI = {
         fd.append("file", file);
         fd.append("subject", subject);
         fd.append("title", title);
-        return axios.post("/api/upload", fd, {
+        return API.post("/upload", fd, {
             headers: { "Content-Type": "multipart/form-data" },
         });
     },
-    status: (noteId) => axios.get(`/api/upload/status/${noteId}`),
+    status: (noteId) => API.get(`/upload/status/${noteId}`),
 };
 
 export const revisionAPI = {
-    saveSession: (data) => axios.post("/api/revision/session", data),
-    stats:       ()     => axios.get("/api/revision/stats"),
+    saveSession: (data) => API.post("/revision/session", data),
+    stats:       ()     => API.get("/revision/stats"),
 };
 
 export const youtubeAPI = {
     process: (url, subject, title) =>
-        axios.post("/api/youtube", { url, subject, title }),
+        API.post("/youtube", { url, subject, title }),
 };
 
 export default API;
