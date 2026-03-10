@@ -1,0 +1,12 @@
+node_modules/
+.idea/
+*.iml
+.env
+.env.local
+dist/
+build/
+ExamAI-backend/uploads/*
+!ExamAI-backend/uploads/.gitkeep
+.DS_Store
+Thumbs.db
+*.log
