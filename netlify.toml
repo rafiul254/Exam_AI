@@ -1,0 +1,7 @@
+[build]
+  base    = "ExamAI-frontend"
+  command = "CI= npm run build"
+  publish = "ExamAI-frontend/dist"
+
+[build.environment]
+  NODE_VERSION = "18"
