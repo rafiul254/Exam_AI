@@ -1,0 +1,8 @@
+[build]
+  base = "ExamAI-frontend"
+  command = "npx vite build"
+  publish = "ExamAI-frontend/dist"
+
+[build.environment]
+  NODE_VERSION = "18"
+  
