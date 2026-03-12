@@ -27,7 +27,6 @@ app.use(cors({
   origin: [
     "http://localhost:5173",
     "https://rafi-examai.netlify.app",
-    "https://exam-ai2026.netlify.app",
     process.env.CLIENT_URL,
   ].filter(Boolean),
   credentials: true,
