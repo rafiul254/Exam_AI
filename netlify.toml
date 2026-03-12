@@ -1,7 +1,8 @@
 [build]
   base    = "ExamAI-frontend"
-  command = "CI= npm run build"
-  publish = "ExamAI-frontend/dist"
+  command = "npm install && npx --yes vite build"
+  publish = "dist"
 
 [build.environment]
   NODE_VERSION = "18"
+  
