@@ -481,7 +481,6 @@ git push origin feature/your-feature
 
 **Rafiul Islam**
 - 🎓 Undergraduate Student, IoT & Robotics — UFTB
-- 🏢 Syntecxhub ML Internship — Week 2
 - 📧 rafuulislam2004@gmail.com
 - 🐙 GitHub:(https://github.com/rafiul254)
 ---
