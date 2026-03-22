@@ -47,28 +47,10 @@
 
 | Service | URL |
 |---------|-----|
-| 🖥️ Frontend | [examai.vercel.app](#) ← *add after deploy* |
-| ⚙️ Backend API | [examai-api.up.railway.app](#) ← *add after deploy* |
+| 🖥️ Frontend | [examai.vercel.app](#)
+| ⚙️ Backend API | [examai-api.up.railway.app](#)
 
 > 🔑 **Test credentials** — Email: `demo@examai.com` / Password: `demo1234`
-
----
-
-## 📸 Screenshots
-
-> 📌 **Add your screenshots here after deploying.**
->
-> Create an `assets/` folder in the repo root, upload your screenshots, then replace the placeholders below:
-
-```
-| Dashboard | Smart Notes | Upload |
-|-----------|-------------|--------|
-| ![Dashboard](assets/dashboard.png) | ![Notes](assets/notes.png) | ![Upload](assets/upload.png) |
-
-| Flashcards | Mind Map | Analytics |
-|------------|----------|-----------|
-| ![Flash](assets/flashcards.png) | ![Map](assets/mindmap.png) | ![Stats](assets/analytics.png) |
-```
 
 ---
 
@@ -493,7 +475,15 @@ git commit -m "feat: add your feature"
 # 4. Push and open a PR
 git push origin feature/your-feature
 ```
+---
 
+## 👤 Author
+
+**Rafiul Islam**
+- 🎓 Undergraduate Student, IoT & Robotics — UFTB
+- 🏢 Syntecxhub ML Internship — Week 2
+- 📧 rafuulislam2004@gmail.com
+- 🐙 GitHub:(https://github.com/rafiul254)
 ---
 
 ## 📄 License
