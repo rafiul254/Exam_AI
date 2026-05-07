@@ -1,12 +1,60 @@
+# Dependencies
 node_modules/
-.idea/
-*.iml
+package-lock.json
+yarn.lock
+
+# Environment variables
 .env
 .env.local
-dist/
-build/
-ExamAI-backend/uploads/*
-!ExamAI-backend/uploads/.gitkeep
+.env.*.local
+
+# IDE & Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.iml
+*.sublime-project
+*.sublime-workspace
+
+# OS files
 .DS_Store
 Thumbs.db
+.windows-build-tools
+
+# Build & Distribution
+dist/
+build/
+.next/
+out/
+
+# Logs
+logs/
 *.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Backend specific
+ExamAI-backend/uploads/*
+!ExamAI-backend/uploads/.gitkeep
+
+# Frontend specific
+ExamAI-frontend/.env.local
+ExamAI-frontend/.env.*.local
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+temp/
+
+# Database
+*.sqlite
+*.db
+
+# Misc
+.DS_Store
+.AppleDouble
+.LSOverride
