@@ -3,8 +3,9 @@ dotenv.config();
 
 console.log("ENV CHECK:", {
     MONGO: process.env.MONGO_URI ? "✅" : "❌",
-    ANTHROPIC: process.env.ANTHROPIC_API_KEY ? "✅" : "❌",
-    KEY_START: process.env.ANTHROPIC_API_KEY?.substring(0, 25) + "..."
+    GROQ: process.env.GROQ_API_KEY ? "✅" : "❌",
+    JWT: process.env.JWT_SECRET ? "✅" : "❌",
+    EMAIL: process.env.EMAIL_USER ? "✅" : "❌",
 });
 
 import express from "express";
